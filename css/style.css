@@ -1,0 +1,21 @@
+#container{
+    float: left;
+    height: 500px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid rgb(167, 167, 167);
+}
+
+#container table{
+    margin-top: 10px;
+}
+
+#table3 tr td{
+    background-image: url("../estourando_baloes/imagens/cronometro.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 140px;
+    width: 134px;
+}

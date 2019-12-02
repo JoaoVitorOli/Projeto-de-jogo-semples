@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(114, 114, 233);
+}
+
+#msg{
+    text-align: center;
+}
+
+#dificuldade{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#div-botao{
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#selection{
+    background-color: rgb(141, 141, 214);
+    border-radius: 6px;
+    border: 1px solid black;
+}
