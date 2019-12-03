@@ -1,5 +1,5 @@
 const botao = document.getElementById('botao');
-var dificuldade = document.getElementById('selection').value; //variável que pega o valor da dificuldade
+
 
 function botaoOver(){
     botao.style.height = '95px'
@@ -15,7 +15,8 @@ botao.onmouseover = botaoOver;
 botao.onmouseout = botaoOut;
 
 function iniciarJogo(){
-    window.location.href = 'jogo.html';         //função para iniciar o jogo ao clickar no botão
+    let dificuldade = document.getElementById('selection').value; //variável que pega o valor da dificuldade
+    window.location.href = 'game/jogo.html?'+dificuldade;         //função para iniciar o jogo ao clickar no botão
 }
 
 botao.onclick = iniciarJogo;
