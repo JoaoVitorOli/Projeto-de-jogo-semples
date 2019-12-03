@@ -4,21 +4,22 @@
 		<meta charset="UTF-8">
 
 		<title>Estourando balões</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<script src="../js/javascript.js"></script>
 
 	</head>
 
-	<body>
+	<body onload="iniciarJogo()">
 
 		<div id="container">
 
 			<table id="table1" border="1">
 				<tr>
 					<td>
-						<img src="estourando_baloes/imagens/balao_azul_grande.png" alt="">
+						<img src="../estourando_baloes/imagens/balao_azul_grande.png" alt="">
 					</td>
 					<td>
-						<p>10</p>
+						<p id="qtd_baloes_num"></p>
 					</td>
 				</tr>
 			</table>
@@ -26,7 +27,7 @@
 			<table id="table2" border="1">
 					<tr>
 						<td>
-							<img src="estourando_baloes/imagens/balao_azul_grande_estourado.png" alt="">
+							<img src="../estourando_baloes/imagens/balao_azul_grande_estourado.png" alt="">
 						</td>
 						<td>
 							<p>0</p>
@@ -37,12 +38,15 @@
 				<table id="table3" border="1">
 						<tr>
 							<td>
-
+								<span id="crono">0</span>
 							</td>
 						</tr>
 					</table>
 
 		</div> <!--container-->
+		<div id="bg-imagem">
+			<span id="baloes_azul"></span>
+		</div>
 
 	</body>
 	
