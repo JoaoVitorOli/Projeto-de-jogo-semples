@@ -3,7 +3,7 @@
     height: 500px;
     width: 150px;
     padding: 10px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(241, 241, 241);
     border: 1px solid rgb(167, 167, 167);
 }
 
@@ -18,4 +18,22 @@
     background-size: cover;
     height: 140px;
     width: 134px;
+    text-align: center;
+    padding-left: 7px;
+}
+
+#bg-imagem{
+    background-image: url('../estourando_baloes/imagens/cenario.png');
+    float: left;
+    height: 521px;
+    width: 580px;
+    background-position: bottom;
+    margin-left: 1px;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 23px 2px 0px 15px ;
+}
+
+#crono{
+    color: red;
+    font-size: 28px;
 }
