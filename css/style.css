@@ -37,3 +37,14 @@
     color: red;
     font-size: 28px;
 }
+
+#div-reiniciar p{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#botao{
+    margin-left: 24px;
+    height: 80px;
+}
