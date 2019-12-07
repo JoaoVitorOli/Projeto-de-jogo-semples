@@ -33,7 +33,7 @@ function game_over(){ //FUNÇÃO GAME OVER PARA QUANDO ACABAR O LIMiTE DE TEMPO
     gameOverVer = false;
     alert('Você não conseguiu estourar todos os balões a tempo!');
 
-    if (gameOverVer === false){  // Gambiarra para que os balões não possão ser clickados depois que o tempo acabar rs
+    if (gameOverVer === false){  // Gambiarra para que os balões não possam ser clickados depois que o tempo acabar rs
         let gameOverDiv = document.getElementById('div-gameover');
         let button = document.createElement('button');
         button.style.width = '580px';
