@@ -45,6 +45,11 @@
 }
 
 #botao{
-    margin-left: 24px;
-    height: 80px;
+    margin-left: 47px;
+    height: 60px;
+}
+
+#qtd_baloes_num, #baloes_estourados{
+    font-size: 28px;
+    margin-left: 5px;
 }
